@@ -1,0 +1,27 @@
+.houses__wrapper {
+  width: 261px;
+  height: 180px;
+  position: relative;
+  display: flex;
+  align-items: baseline;
+  background-position: center;
+  background-size: 100%;
+  transition: background-size 1s ease;
+}
+
+.houses__wrapper:hover {
+  background-size: 130%;
+  cursor: default;
+}
+
+.houses__wrapper::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: #2a2c2f;
+  opacity: 0.3;
+  
+}

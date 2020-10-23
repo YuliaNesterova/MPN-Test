@@ -1,0 +1,4 @@
+.houses {
+  width: calc(100% - 168px * 2);
+  margin: auto;
+}

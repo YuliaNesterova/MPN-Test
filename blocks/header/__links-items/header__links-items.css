@@ -1,0 +1,5 @@
+
+
+.header__links-items:not(:last-child) {
+  margin-right: 40px;
+}

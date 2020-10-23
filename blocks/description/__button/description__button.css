@@ -1,0 +1,16 @@
+.description__button {
+  background-color: #e5e5e5;
+  border: 1px solid transparent;
+  margin-top: 56px;
+  border-radius: 28px;
+  margin-right: 16px;
+  outline: none;
+  padding: 14px 36px;
+  font-size: 20px;
+  line-height: 28px;
+  font-weight: 400px;
+}
+
+.description__button:hover {
+  border: 1px solid #F0C630;
+}

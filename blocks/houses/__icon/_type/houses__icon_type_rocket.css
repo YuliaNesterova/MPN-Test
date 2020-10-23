@@ -1,0 +1,8 @@
+.houses__icon_type_rocket { 
+  background-color: red;
+  top: 8px;
+  left: 8px;
+  background-image: url("../../../../images/rocket.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+}

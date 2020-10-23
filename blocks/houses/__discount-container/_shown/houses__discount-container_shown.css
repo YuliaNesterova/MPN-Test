@@ -1,0 +1,5 @@
+.houses__discount-container_shown {
+  display: flex;
+  opacity: 1;
+  visibility: visible;
+}

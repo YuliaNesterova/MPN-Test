@@ -1,0 +1,12 @@
+.appointment__button {
+  padding: 14px 36px;
+  background-color: transparent;
+  outline: none;
+  border: 1px solid #ffff;
+  font-size: 20px;
+  line-height: 28px;
+  font-weight: 400;
+  color: #ffff;
+  border-radius: 0;
+  margin: 0;
+}

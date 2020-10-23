@@ -1,0 +1,15 @@
+.location__infrastructure-button {
+  position: absolute;
+  bottom: 16px;
+  left: 413px;
+  padding: 8px 24px;
+  background-color: #ffff;
+  border: 1px solid transparent;
+  outline: none;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.15);
+  border-radius: 24px;
+}
+
+.location__infrastructure-button:hover {
+  border: 1px solid #F0C630;
+}

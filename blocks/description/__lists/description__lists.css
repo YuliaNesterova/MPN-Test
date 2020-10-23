@@ -1,0 +1,5 @@
+.description__lists {
+  margin: 33px 0 56px 0;
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+}

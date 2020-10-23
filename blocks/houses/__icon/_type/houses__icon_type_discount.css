@@ -1,0 +1,9 @@
+.houses__icon_type_discount {
+  background-color: orange;
+  top: 8px;
+  left: 8px;
+  z-index: 1;
+  background-image: url("../../../../images/discount.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+}

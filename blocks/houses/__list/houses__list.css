@@ -1,0 +1,7 @@
+.houses__list {
+  display: grid;
+  grid-template-columns: repeat(4, auto);
+  grid-column-gap: 20px;
+  list-style:none;
+  padding: 0;
+}

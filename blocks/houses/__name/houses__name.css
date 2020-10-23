@@ -1,0 +1,11 @@
+.houses__name {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  margin: 16px 0 4px 0;
+}
+
+.houses__name:hover {
+  color: #5F62AC;
+  cursor: default;
+}

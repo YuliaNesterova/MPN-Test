@@ -1,0 +1,6 @@
+.location-popup__button_checked {
+  background-image: url("../../../../images/checked.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 70%;
+}

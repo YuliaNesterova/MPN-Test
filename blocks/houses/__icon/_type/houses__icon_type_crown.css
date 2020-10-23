@@ -1,0 +1,8 @@
+.houses__icon_type_crown {
+  background-color: purple;
+  top: 8px;
+  left: 28px;
+  background-image: url("../../../../images/crown.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+}

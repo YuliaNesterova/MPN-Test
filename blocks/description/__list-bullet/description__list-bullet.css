@@ -1,0 +1,7 @@
+.description__list-bullet {
+  height: 32px;
+  width: 32px;
+  background-color: #F0C630;
+  border-radius: 50%;
+  margin-right: 24px;
+}

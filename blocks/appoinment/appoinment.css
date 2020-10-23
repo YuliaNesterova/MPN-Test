@@ -1,0 +1,8 @@
+.appoinment {
+  padding: 56px 168px;
+  margin: auto;
+  background-color: #5F62AC;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
