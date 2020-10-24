@@ -14,3 +14,22 @@
 .description__button:hover {
   border: 1px solid #F0C630;
 }
+
+@media (max-width: 1179px) {
+  .description__button {
+    padding: 14px 24px;
+  }
+  .description__button:not(:last-child) {
+    margin-right: 6px;
+  }
+}
+
+@media (max-width: 767px) {
+  .description__button {
+    font-size: 16px;
+    line-height: 24px;
+    padding: 8px 24px;
+    margin: 0 0 8px 0;
+    max-width: 260px;
+  }
+}

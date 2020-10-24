@@ -13,3 +13,10 @@
 .location__infrastructure-button:hover {
   border: 1px solid #F0C630;
 }
+
+@media (max-width: 767px) {
+  .location__infrastructure-button {
+    bottom: 8px;
+    left: 45%;
+  }
+}

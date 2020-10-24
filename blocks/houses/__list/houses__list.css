@@ -5,3 +5,16 @@
   list-style:none;
   padding: 0;
 }
+
+@media (max-width: 1179px) {
+  .houses__list {
+    grid-template-columns: repeat(2, auto);
+  }
+}
+
+@media (max-width: 767px) {
+  .houses__list {
+    grid-template-columns: repeat(1, auto);
+    justify-items: center;
+  }
+}

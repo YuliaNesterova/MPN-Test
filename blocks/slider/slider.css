@@ -1,0 +1,22 @@
+.slider {
+  width: 991px;
+  height: 528px;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+@media (max-width: 1179px) {
+  .slider {
+    width: 568px;
+height: 496px;
+  }
+}
+
+@media (max-width: 767px) {
+  .slider {
+    width: 200px;
+    height: 232px;
+    top: 49px;
+  }
+}

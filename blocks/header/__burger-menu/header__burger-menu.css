@@ -1,0 +1,8 @@
+.header__burger-menu {
+  background-color: #4A439D;
+  position: absolute;
+  top: 49px;
+  width: 100vw;
+  z-index: 2;
+  display: none;
+}

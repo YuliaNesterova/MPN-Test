@@ -1,0 +1,20 @@
+.lead {
+  background-color: #5F62AC;
+  padding: 140px 168px 248px 168px;
+}
+
+@media (max-width: 1179px) {
+  .lead {
+    padding: 140px 32px 248px 32px;
+  }
+}
+
+@media (max-width: 767px) {
+  .lead {
+    padding: 48px 24px 135px 24px;
+  }
+}
+
+
+
+

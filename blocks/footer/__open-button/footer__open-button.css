@@ -1,0 +1,12 @@
+.footer__open-button {
+  background: none;
+  outline: none;
+  border: none;
+  display: none;
+}
+
+@media (max-width: 767px) {
+  .footer__open-button {
+    display: flex;
+  }
+}

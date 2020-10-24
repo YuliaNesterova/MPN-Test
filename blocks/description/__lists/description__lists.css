@@ -3,3 +3,10 @@
   display: grid;
   grid-template-columns: repeat(2, auto);
 }
+
+@media (max-width: 1179px) {
+  .description__lists {
+    display: flex;
+    flex-direction: column;
+  }
+}

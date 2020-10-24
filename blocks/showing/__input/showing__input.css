@@ -1,0 +1,40 @@
+.showing__input {
+  width: 100%;
+  background: none;
+  outline: none;
+  border: none;
+  border-bottom: 1px solid #F0C630;
+  padding-bottom: 16px;
+  margin-bottom: 32px;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 16px;
+  color: #FFFFFF;
+}
+
+.showing__input[type="date"] {
+  margin-right: 20px;
+}
+
+.showing__input::placeholder {
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 16px;
+  color: #FFFFFF;
+  opacity: 0.5;
+}
+
+.showing__input::-webkit-calendar-picker-indicator { 
+  background: transparent; 
+  background-image: url("../../../images/date-time-indicator.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.showing__input::-webkit-datetime-edit { 
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 16px;
+  color: #FFFFFF;
+  opacity: 0.5;
+}

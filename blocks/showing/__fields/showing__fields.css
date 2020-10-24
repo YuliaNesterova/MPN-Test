@@ -1,0 +1,11 @@
+.showing__fields {
+  padding: 0;
+  border: none;
+  width: 542px;
+}
+
+@media (max-width: 767px) {
+  .showing__fields {
+    width: 100%;
+  }
+}

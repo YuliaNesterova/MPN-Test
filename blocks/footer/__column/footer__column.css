@@ -1,0 +1,9 @@
+.footer__column {
+  width: 261px;
+}
+
+@media (max-width: 767px) {
+  .footer__column {
+    width: 100%;
+  }
+}

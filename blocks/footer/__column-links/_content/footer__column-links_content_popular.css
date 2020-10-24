@@ -1,0 +1,5 @@
+@media (max-width: 767px) {
+  .footer__column-links_content_popular {
+    display: none;
+  }
+}

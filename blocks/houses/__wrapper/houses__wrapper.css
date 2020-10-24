@@ -1,5 +1,5 @@
 .houses__wrapper {
-  width: 261px;
+  min-width: 261px;
   height: 180px;
   position: relative;
   display: flex;
@@ -23,5 +23,10 @@
   left: 0;
   background-color: #2a2c2f;
   opacity: 0.3;
-  
+}
+
+@media (max-width: 767px) {
+  .houses__wrapper {
+    width: 256px;
+  }
 }

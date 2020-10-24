@@ -1,0 +1,5 @@
+.showing__reminder {
+  display: flex;
+  align-items: center;
+  margin-bottom: 26px;
+}

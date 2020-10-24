@@ -1,0 +1,21 @@
+.appointment {
+  padding: 56px 168px;
+  margin: auto;
+  background-color: #5F62AC;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@media (max-width: 1179px) {
+  .appointment {
+    padding: 48px 32px;
+  }
+}
+
+@media (max-width: 767px) {
+  .appointment {
+    padding: 24px 32px;
+    flex-direction: column;
+  }
+}

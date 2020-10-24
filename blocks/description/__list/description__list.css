@@ -2,3 +2,9 @@
   list-style: none;
   padding: 0;
 }
+
+@media (max-width: 1179px) {
+  .description__list {
+    margin: 0;
+  }
+}

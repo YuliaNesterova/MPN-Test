@@ -1,0 +1,17 @@
+@media (max-width: 1179px) {
+  .houses__list-item {
+    width: 342px;
+  }
+}
+
+@media (max-width: 767px) {
+  .houses__list-item:not(:last-child) {
+    margin-bottom: 24px;
+  }
+}
+
+@media (max-width: 767px) {
+  .houses__list-item {
+    width: 100%;
+  }
+}

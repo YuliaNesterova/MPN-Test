@@ -11,210 +11,328 @@
 <body class="root">
 
     <div class="page">
+       
+
         <header class="header">
-            <img src="./images/header__logo.svg" alt="Лого" class="header__logo">
-            <nav>
-                <ul class="header__links">
-                    <li class="header__links-items"><a href="" class="header__link">Описание</a></li>
-                    <li class="header__links-items"><a href="" class="header__link">Локация</a></li>
-                    <li class="header__links-items"><a href="" class="header__link">Смотрите также</a></li>
-                    <li class="header__links-items"><a href="" class="header__link">Запись на просмотр</a></li>
-                </ul>
-            </nav>
-        </header>
-
-        <main class="content">
-
-            <section class="description">
-                <nav>
-                    <button class="description__button description__button_active ">Плюсы и минусы</button>
-                    <button class="description__button">Аэротур</button>
-                    <button class="description__button">Планировки</button>
-                    <button class="description__button">Застройщик</button>
-                </nav>
-                <div class="description__lists">
-                    <ul class="description__list description__list_type_pos">
-                        <li class="description__list-item">
-                            <div class="description__list-bullet description__list-bullet_type_pos"></div>
-                            <p class="description__text">Привлекательная архитектура</p>
-                        </li>
-                        <li class="description__list-item">
-                            <div class="description__list-bullet description__list-bullet_type_pos"></div>
-                            <p class="description__text">Привлекательная архитектура</p>
-                        </li>
-                        <li class="description__list-item">
-                            <div class="description__list-bullet description__list-bullet_type_pos"></div>
-                            <p class="description__text">Привлекательная архитектура</p>
-                        </li>
-                        <li class="description__list-item">
-                            <div class="description__list-bullet description__list-bullet_type_pos"></div>
-                            <p class="description__text">Привлекательная архитектура</p>
-                        </li>
-                        <li class="description__list-item">
-                            <div class="description__list-bullet description__list-bullet_type_pos"></div>
-                            <p class="description__text">Привлекательная архитектура</p>
-                        </li>
-                    </ul>
-                    <ul class="description__list description__list_type_neg">
-                        <li class="description__list-item">
-                            <div class="description__list-bullet description__list-bullet_type_neg"></div>
-                            <p class="description__text description__text_type_neg">Недостаток собственной
-                                инфраструктуры
-                            </p>
-                        </li>
-                        <li class="description__list-item">
-                            <div class="description__list-bullet description__list-bullet_type_neg"></div>
-                            <p class="description__text description__text_type_neg">Недостаток собственной
-                                инфраструктуры
-                            </p>
-                        </li>
-                        <li class="description__list-item">
-                            <div class="description__list-bullet description__list-bullet_type_neg"></div>
-                            <p class="description__text description__text_type_neg">Недостаток собственной
-                                инфраструктуры
-                            </p>
-                        </li>
-                    </ul>
-                </div>
-            </section>
-
-            <section class="appoinment">
-                <h2 class="appointment__heading">Запишитесь на просмотр и оцените всё сами!</h2>
-                <button class="appointment__button description__button">Запись на просмотр</button>
-            </section>
-
-            <section class="location">
-                <h3 class="location__heading">Локация</h3>
-                <p class="location__address">Москва, ЦАО, Пресненский, Шмитовский проезд, вл. 39</p>
-                <ul class="location__underground">
-                    <li class="location__underground-item">
-                        <div class="location__blue-line"></div>
-                        <p class="location__station-name">Шелепиха</p>
-                        <p class="location__time">5 мин пешком</p>
-                    </li>
-                    <li class="location__underground-item">
-                        <div class="location__blue-line"></div>
-                        <p class="location__station-name">Фили</p>
-                        <p class="location__time">6 мин на транспорте</p>
-                    </li>
-                </ul>
-                <div class="location__map">
-                    <button class="location__infrastructure-button">
-                        <img src="./images/infrastructure__icon.svg" alt="Инфраструктура" class="location__infrastructure-icon">
-                        Объекты инфраструктуры
-                    </button>
-                    <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A254c652f8f83d746a3da8b469abe1c1b5feda967eb1814d5ecb833e4aca042ee&amp;source=constructor" width="1104" height="407" frameborder="0"></iframe>
-
-                    <div class="location-popup">
-                        <div class="location-popup__container">
-                            <ul class="location-popup__objects">
-                                <li class="location-popup__object">
-                                    <button type="button" class="location-popup__button location-popup__button_checked"></button>Школы
-                                </li>
-                                <li class="location-popup__object">
-                                    <button type="button" class="location-popup__button"></button>Аптеки
-                                </li>
-                                <li class="location-popup__object">
-                                    <button type="button" class="location-popup__button location-popup__button_checked"></button>Высшие учебные заведения
-                                </li>
-                                <li class="location-popup__object">
-                                    <button type="button" class="location-popup__button location-popup__button_checked"></button>Больницы
-                                </li>
-                                <li class="location-popup__object">
-                                    <button type="button" class="location-popup__button location-popup__button_checked"></button>Магазины
-                                </li>
-                                <li class="location-popup__object">
-                                    <button type="button" class="location-popup__button location-popup__button_checked"></button>Фитнес
-                                </li>
+            <div class="header__content">
+                <img src="./images/header__logo.svg" alt="Лого" class="header__logo">
+                        <ul class="header__links">
+                            <li class="header__links-items"><a href="#description" class="header__link">Описание</a></li>
+                            <li class="header__links-items"><a href="#location" class="header__link">Локация</a></li>
+                            <li class="header__links-items"><a href="#houses" class="header__link">Смотрите также</a></li>
+                            <li class="header__links-items"><a href="#appointment" class="header__link">Запись на
+                                    просмотр</a>
+                            </li>
+                        </ul>
+                         <button class="header__burger-button">
+                             <img src="./images/burger-button.svg" alt="Меню" class="header__burger-icon">
+                         </button>
+                         <button class="header__burger-close-button">
+                             <img src="./images/burger-close.svg" alt="Закрыть">
+                         </button>
+                        <nav class="header__burger-menu">
+                            <ul class="header__burger-items">
+                                <li class="header__burger-item"><a href="#description" class="header__burger-link">Описание</a></li>
+                            <li class="header__burger-item"><a href="#location" class="header__burger-link">Локация</a></li>
+                            <li class="header__burger-item"><a href="#houses" class="header__burger-link">Смотрите также</a></li>
+                            <li class="header__burger-item"><a href="#appointment" class="header__burger-link">Запись на просмотр</a></li>
                             </ul>
-                        </div>
-                        <button class="location__infrastructure-button location-popup__infrastructure-button">
-                            <img src="./images/infrastructure__icon.svg" alt="Инфраструктура" class="location__infrastructure-icon">
-                            Объекты инфраструктуры
-                        </button>
+                            
+                        </nav>
+                </div>
+                <div class="header__line"></div>
+
+                <div class="slider">
+                    <div class="slider__image"></div>
+                    <div class="slider__buttons">
+                        <button class="slider__button slider__button_active"></button>
+                        <button class="slider__button"></button>
+                        <button class="slider__button"></button>
+                        <button class="slider__button"></button>
+                        <button class="slider__button"></button>
                     </div>
                 </div>
-                
-            </section>
-
-            <section class="houses">
-                <h3 class="houses__heading">Смотрите также</h3>
-                <ul class="houses__list">
-                    <li class="houses__list-item houses__list-item_type_streshnevo">
-                        <div class="houses__wrapper houses__wrapper_type_streshnevo">
-                            <a href="#" class="houses__link">
-                                <div class="houses__icon houses__icon_type_rocket"></div>
-                                <div class="houses__icon houses__icon_type_crown"></div>
-                                <p class="houses__price">8 217 030 - 29 070 951₽</p>
-                                <p class="houses__apartments">569 квартир в продаже</p>
-                            </a>
+            </header>
+    
+            <main class="content">
+    
+                <section class="lead">
+                    <h1 class="lead__title">Многофункциональный жилой квартал HEADLINER</h1>
+                    <p class="lead__subtitle">Сдача — 4 кв. 2022, есть сданные</p>
+                   
+                </section>
+    
+                <section class="description" id="description">
+                    <nav class="description__nav">
+                        <button class="description__button description__button_active ">Плюсы и минусы</button>
+                        <button class="description__button">Аэротур</button>
+                        <button class="description__button">Планировки</button>
+                        <button class="description__button">Застройщик</button>
+                    </nav>
+                    <div class="description__lists">
+                        <ul class="description__list description__list_type_pos">
+                            <li class="description__list-item">
+                                <div class="description__list-bullet description__list-bullet_type_pos"></div>
+                                <p class="description__text">Привлекательная архитектура</p>
+                            </li>
+                            <li class="description__list-item">
+                                <div class="description__list-bullet description__list-bullet_type_pos"></div>
+                                <p class="description__text">Большой выбор квартир</p>
+                            </li>
+                            <li class="description__list-item">
+                                <div class="description__list-bullet description__list-bullet_type_pos"></div>
+                                <p class="description__text">Поразительные виды из окон</p>
+                            </li>
+                            <li class="description__list-item">
+                                <div class="description__list-bullet description__list-bullet_type_pos"></div>
+                                <p class="description__text">Сложившийся район со всем необходимым</p>
+                            </li>
+                            <li class="description__list-item">
+                                <div class="description__list-bullet description__list-bullet_type_pos"></div>
+                                <p class="description__text">Сравнительно низкие цены</p>
+                            </li>
+                        </ul>
+                        <ul class="description__list description__list_type_neg">
+                            <li class="description__list-item">
+                                <div class="description__list-bullet description__list-bullet_type_neg"></div>
+                                <p class="description__text description__text_type_neg">Недостаток собственной
+                                    инфраструктуры
+                                </p>
+                            </li>
+                            <li class="description__list-item">
+                                <div class="description__list-bullet description__list-bullet_type_neg"></div>
+                                <p class="description__text description__text_type_neg">Частые пробки вокруг
+                                </p>
+                            </li>
+                            <li class="description__list-item">
+                                <div class="description__list-bullet description__list-bullet_type_neg"></div>
+                                <p class="description__text description__text_type_neg">Не лучшая экология
+                                </p>
+                            </li>
+                        </ul>
+                    </div>
+                </section>
+    
+                <section class="appointment" id="appointment">
+                    <h2 class="appointment__heading">Запишитесь на просмотр и оцените всё сами!</h2>
+                    <button class="appointment__button description__button">Запись на просмотр</button>
+                </section>
+    
+    
+                <section class="location" id="location">
+                    <h3 class="location__heading">Локация</h3>
+                    <p class="location__address">Москва, ЦАО, Пресненский, Шмитовский проезд, вл. 39</p>
+                    <ul class="location__underground">
+                        <li class="location__underground-item">
+                            <div class="location__blue-line"></div>
+                            <p class="location__station-name">Шелепиха</p>
+                            <p class="location__time">5 мин пешком</p>
+                        </li>
+                        <li class="location__underground-item">
+                            <div class="location__blue-line"></div>
+                            <p class="location__station-name">Фили</p>
+                            <p class="location__time">6 мин на транспорте</p>
+                        </li>
+                    </ul>
+                    <div class="location__map">
+                        <button class="location__infrastructure-button">
+                            <img src="./images/infrastructure__icon.svg" alt="Инфраструктура"
+                                class="location__infrastructure-icon">
+                                <span class="location__button-text">Объекты инфраструктуры</span>
+                        </button>
+                        <iframe class="location__iframe"
+                            src="https://yandex.ru/map-widget/v1/?um=constructor%3A254c652f8f83d746a3da8b469abe1c1b5feda967eb1814d5ecb833e4aca042ee&amp;source=constructor"></iframe>
+    
+                        <div class="location-popup">
+                            <div class="location-popup__container">
+                                <ul class="location-popup__objects">
+                                    <li class="location-popup__object">
+                                        <button type="button"
+                                            class="location-popup__button location-popup__button_checked"></button>Школы
+                                    </li>
+                                    <li class="location-popup__object">
+                                        <button type="button" class="location-popup__button"></button>Аптеки
+                                    </li>
+                                    <li class="location-popup__object">
+                                        <button type="button"
+                                            class="location-popup__button location-popup__button_checked"></button>Высшие
+                                        учебные заведения
+                                    </li>
+                                    <li class="location-popup__object">
+                                        <button type="button"
+                                            class="location-popup__button location-popup__button_checked"></button>Больницы
+                                    </li>
+                                    <li class="location-popup__object">
+                                        <button type="button"
+                                            class="location-popup__button location-popup__button_checked"></button>Магазины
+                                    </li>
+                                    <li class="location-popup__object">
+                                        <button type="button"
+                                            class="location-popup__button location-popup__button_checked"></button>Фитнес
+                                    </li>
+                                </ul>
+                            </div>
+                            <button class="location__infrastructure-button location-popup__infrastructure-button">
+                                <img src="./images/infrastructure__icon.svg" alt="Инфраструктура"
+                                    class="location__infrastructure-icon"><span class="location__button-text">Объекты инфраструктуры</span>
+                            </button>
                         </div>
-                        <p class="houses__name">ЖК «Level Стрешнево» (Левел Стрешнево)</p>
-                        <p class="houses__district">Москва, СВАО</p>
-                        <div class="houses__underground">
-                            <div class="houses__orange-line"></div>
-                            <p class="houses__station">Алексеевская</p>
-                            <img src="./images/walkingPerson.svg" alt="Путь" class="houses__picture">
-                            <p class="houses__time">5 мин</p>
+                    </div>
+    
+                </section>
+    
+                <section class="houses" id="houses">
+                    <h3 class="houses__heading">Смотрите также</h3>
+                    <ul class="houses__list">
+                        <li class="houses__list-item houses__list-item_type_streshnevo">
+                            <div class="houses__wrapper houses__wrapper_type_streshnevo">
+                                <a href="#" class="houses__link">
+                                    <div class="houses__icon houses__icon_type_rocket"></div>
+                                    <div class="houses__icon houses__icon_type_crown"></div>
+                                    <p class="houses__price">8 217 030 - 29 070 951₽</p>
+                                    <p class="houses__apartments">569 квартир в продаже</p>
+                                </a>
+                            </div>
+                            <p class="houses__name">ЖК «Level Стрешнево» (Левел Стрешнево)</p>
+                            <p class="houses__district">Москва, СВАО</p>
+                            <div class="houses__underground">
+                                <div class="houses__orange-line"></div>
+                                <p class="houses__station">Алексеевская</p>
+                                <img src="./images/walkingPerson.svg" alt="Путь" class="houses__picture">
+                                <p class="houses__time">5 мин</p>
+                            </div>
+                        </li>
+                        <li class="houses__list-item houses__list-item_type_medvedkovo">
+                            <div class="houses__wrapper houses__wrapper_type_medvedkovo">
+                                <a href="#" class="houses__link">
+                                    <div class="houses__icon houses__icon_type_discount"></div>
+                                    <div class="houses__discount-container">Действует скидка</div>
+                                    <p class="houses__price">8 217 030 - 29 070 951₽</p>
+                                    <p class="houses__apartments">569 квартир в продаже</p>
+                                </a>
+                            </div>
+                            <p class="houses__name">ЖК «Новое Медведково»</p>
+                            <p class="houses__district">Москва, СВАО</p>
+                            <div class="houses__underground">
+                                <div class="houses__orange-line"></div>
+                                <p class="houses__station">Алексеевская</p>
+                                <img src="./images/walkingPerson.svg" alt="Путь" class="houses__picture">
+                                <p class="houses__time">5 мин</p>
+                            </div>
+                        </li>
+                        <li class="houses__list-item houses__list-item_type_lybertsy">
+                            <div class="houses__wrapper houses__wrapper_type_lybertsy">
+                                <a href="#" class="houses__link">
+                                    <p class="houses__price">8 217 030 - 29 070 951₽</p>
+                                    <p class="houses__apartments">569 квартир в продаже</p>
+                                </a>
+                            </div>
+    
+    
+                            <p class="houses__name">ЖК «Люберецкий»</p>
+                            <p class="houses__district">Москва, СВАО</p>
+                            <div class="houses__underground">
+                                <div class="houses__orange-line"></div>
+                                <p class="houses__station">Алексеевская</p>
+                                <img src="./images/walkingPerson.svg" alt="Путь" class="houses__picture">
+                                <p class="houses__time">5 мин</p>
+                            </div>
+                        </li>
+                        <li class="houses__list-item houses__list-item_type_izm">
+                            <div class="houses__wrapper houses__wrapper_type_izm">
+                                <a href="#" class="houses__link">
+    
+                                    <p class="houses__price">8 217 030 - 29 070 951₽</p>
+                                    <p class="houses__apartments">569 квартир в продаже</p>
+                                </a>
+                            </div>
+    
+    
+                            <p class="houses__name">ЖК «Измайловский лес»</p>
+                            <p class="houses__district">Москва, СВАО</p>
+                            <div class="houses__underground">
+                                <div class="houses__orange-line"></div>
+                                <p class="houses__station">Алексеевская</p>
+                                <img src="./images/walkingPerson.svg" alt="Путь" class="houses__picture">
+                                <p class="houses__time">5 мин</p>
+                            </div>
+                        </li>
+                    </ul>
+                </section>
+    
+                <section class="showing">
+                    <h2 class="showing__heading">Запишитесь на просмотр и оцените всё сами!</h2>
+                    <form name="show" class="showing__form">
+                        <fieldset class="showing__fields">
+                            <input placeholder="Как вас зовут?" name="name" type="text" class="showing__input" required>
+                            <div class="showing__date-time">
+                                <input name="date" type="date" class="showing__input" required>
+                                <input name="time" type="time" class="showing__input" required>
+                            </div>
+                            <input placeholder="Ваш телефон" name="phone" type="phone" class="showing__input" required>
+                            <div class="showing__reminder">
+                                <button type="button" class="showing__button"></button>
+                                <p class="showing__text">Напомните мне за 2 часа до визита</p>
+                            </div>
+                            <button type="submit" class="showing__submit-button">Отправить</button>
+                        </fieldset>
+    
+                    </form>
+                </section>
+    
+                <footer class="footer">
+                    <div class="footer__columns">
+                        <nav class="footer__column">
+                            <h4 class="footer__column-heading"><span class="footer__column-heading-text">Новостройки</span>
+                                <button class="footer__open-button footer__open-button_type_novostroy">
+                                <img src="./images/footer-open.svg" alt="Открыть">
+                            </button>
+                        <button class="footer__close-button footer__close-button_type_novostroy">
+                            <img src="./images/footer-close.svg" alt="Закрыть">
+                        </button>
+                        </h4>
+                            <ul class="footer__column-links footer__column-links_content_novostroy">
+                                <li><a href="#" class="footer__column-link">Квартиры в Москве</a></li>
+                                <li><a href="#" class="footer__column-link">квартиры в Новой Москве</a></li>
+                                <li><a href="#" class="footer__column-link">Квартиры </a></li>
+                                <li><a href="#" class="footer__column-link">В Москве</a></li>
+                                <li><a href="#" class="footer__column-link">В Подмосковье</a></li>
+                                <li><a href="#" class="footer__column-link">В Подмосковье</a></li>
+                            </ul>
+                        </nav>
+                        <nav class="footer__column">
+                            <h4 class="footer__column-heading"><span class="footer__column-heading-text">Популярное</span>
+                                <button class="footer__open-button footer__open-button_type_popular">
+                                <img src="./images/footer-open.svg" alt="Открыть">
+                            </button>
+                        <button class="footer__close-button footer__close-button_type_popular">
+                            <img src="./images/footer-close.svg" alt="Закрыть">
+                        </button>
+                        </h4>
+                            <ul class="footer__column-links footer__column-links_content_popular">
+                                <li><a href="#" class="footer__column-link">В рассрочку</a></li>
+                                <li><a href="#" class="footer__column-link">Военная ипотека</a></li>
+                                <li><a href="#" class="footer__column-link">До 4 млн</a></li>
+                                <li><a href="#" class="footer__column-link">До 6 млн</a></li>
+                                <li><a href="#" class="footer__column-link">Внутри МКАД</a></li>
+                            </ul>
+                        </nav>
+                        <nav class="footer__column footer__column_content_advertisement">
+                            <h4 class="footer__column-heading">Рекламный отдел</h4>
+                            <ul class="footer__column-links">
+                                <li><a href="#" class="footer__column-link">+7 (495) 987-42-47 доб. 501</a></li>
+                                <li><a href="#" class="footer__column-link">kp@novostroy-m.ru</a></li>
+                        </nav>
+                        <div class="footer__column footer__column_content_copyright">
+                            <p class="footer__copyright">&copy; 2011—2020 Новострой-М</p>
+                            <p class="footer__copyright">Всё, что нужно знать о новостройках</p>
                         </div>
-                    </li>
-                    <li class="houses__list-item houses__list-item_type_medvedkovo">
-                        <div class="houses__wrapper houses__wrapper_type_medvedkovo">
-                            <a href="#" class="houses__link">
-                                <div class="houses__icon houses__icon_type_discount"></div>
-                                <div class="houses__discount-container">Действует скидка</div>
-                                <p class="houses__price">8 217 030 - 29 070 951₽</p>
-                                <p class="houses__apartments">569 квартир в продаже</p>
-                            </a>
-                        </div>
-                        <p class="houses__name">ЖК «Новое Медведково»</p>
-                        <p class="houses__district">Москва, СВАО</p>
-                        <div class="houses__underground">
-                            <div class="houses__orange-line"></div>
-                            <p class="houses__station">Алексеевская</p>
-                            <img src="./images/walkingPerson.svg" alt="Путь" class="houses__picture">
-                            <p class="houses__time">5 мин</p>
-                        </div>
-                    </li>
-                    <li class="houses__list-item houses__list-item_type_lybertsy">
-                        <div class="houses__wrapper houses__wrapper_type_lybertsy">
-                            <a href="#" class="houses__link">
-                                <p class="houses__price">8 217 030 - 29 070 951₽</p>
-                                <p class="houses__apartments">569 квартир в продаже</p>
-                            </a>
-                        </div>
-
-
-                        <p class="houses__name">ЖК «Люберецкий»</p>
-                        <p class="houses__district">Москва, СВАО</p>
-                        <div class="houses__underground">
-                            <div class="houses__orange-line"></div>
-                            <p class="houses__station">Алексеевская</p>
-                            <img src="./images/walkingPerson.svg" alt="Путь" class="houses__picture">
-                            <p class="houses__time">5 мин</p>
-                        </div>
-                    </li>
-                    <li class="houses__list-item houses__list-item_type_izm">
-                        <div class="houses__wrapper houses__wrapper_type_izm">
-                            <a href="#" class="houses__link">
-
-                                <p class="houses__price">8 217 030 - 29 070 951₽</p>
-                                <p class="houses__apartments">569 квартир в продаже</p>
-                            </a>
-                        </div>
-
-
-                        <p class="houses__name">ЖК «Измайловский лес»</p>
-                        <p class="houses__district">Москва, СВАО</p>
-                        <div class="houses__underground">
-                            <div class="houses__orange-line"></div>
-                            <p class="houses__station">Алексеевская</p>
-                            <img src="./images/walkingPerson.svg" alt="Путь" class="houses__picture">
-                            <p class="houses__time">5 мин</p>
-                        </div>
-                    </li>
-                </ul>
-        </main>
+                    </div>
+                </footer>
+            </main>
+            </div>
+            
+            
 
 
     </div>

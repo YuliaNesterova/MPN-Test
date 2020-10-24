@@ -1,11 +1,15 @@
 .header__link {
+  display: flex;
+  align-items: center;
   text-decoration: none;
   color: #ffffff;
   font-weight: 400;
   transition: opacity 0.5s;
-
+  min-height: 80px;
+  border-bottom: 1px solid transparent;
+  transition: border-bottom 0.3s;
 }
 
 .header__link:hover {
-border-bottom: 1px solid #000;
+border-bottom: 1px solid #F0C630;
 }

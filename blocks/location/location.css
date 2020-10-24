@@ -1,4 +1,10 @@
 .location {
-  width: 1104px;
-  margin: auto;
+  width: calc(100% - 168px * 2);
+ margin: auto;
+}
+
+@media (max-width: 1179px) {
+  .location {
+    width: calc(100% - 32px * 2);
+  }
 }

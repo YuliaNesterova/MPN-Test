@@ -3,5 +3,9 @@
   line-height: 24px;
  font-weight: 400;
   opacity: 0.5;
-  margin: 0 32px 0 0;
+  margin: 0 00 0;
+}
+
+.location__time:not(:last-child) {
+  margin-right: 32px;
 }

@@ -1,0 +1,16 @@
+.slider__button {
+  height: 12px;
+  width: 12px;
+  background-color: #ffff;
+  border: none;
+  outline: none;
+  margin: 48px 24px 0 0;
+  opacity: 0.3;
+}
+
+@media (max-width: 767px) {
+  .slider__button {
+    margin-top: 24px;
+  }
+}
+

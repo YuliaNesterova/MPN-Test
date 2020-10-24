@@ -1,0 +1,8 @@
+.header__burger-close-button {
+  outline: none;
+  border: none;
+  background: none;
+  padding: 0;
+  margin: 15px 29px 15px 0;
+  display: none;
+}

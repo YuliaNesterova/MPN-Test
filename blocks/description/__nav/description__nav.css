@@ -1,0 +1,7 @@
+@media (max-width: 767px) {
+  .description__nav {
+    margin-top: 31px;
+    display: flex;
+    flex-direction: column;
+  }
+}

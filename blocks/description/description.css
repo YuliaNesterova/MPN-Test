@@ -3,3 +3,9 @@
   margin: auto;
   width: calc(100% - 168px * 2);
 }
+
+@media (max-width: 1179px) {
+  .description {
+    width: calc(100% - 24px * 2);
+  }
+}

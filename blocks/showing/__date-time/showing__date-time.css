@@ -1,0 +1,9 @@
+.showing__date-time {
+  display: flex;
+}
+
+@media (max-width: 767px) {
+  .showing__date-time {
+    flex-direction: column;
+  }
+}

@@ -1,0 +1,19 @@
+.showing__submit-button {
+  outline: none;
+  padding: 14px 36px;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  color: #5F62AC;
+  border: 1px solid transparent;
+}
+
+.showing__submit-button:hover {
+  border: 1px solid #F0C630;
+}
+
+@media (max-width: 767px) {
+  .showing__submit-button {
+    width: 100%;
+  }
+}

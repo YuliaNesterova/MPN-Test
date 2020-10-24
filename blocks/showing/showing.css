@@ -1,0 +1,10 @@
+.showing {
+  background-color: #5F62AC;
+  padding: 56px 168px;
+}
+
+@media (max-width: 1179px) {
+  .showing {
+    padding: 48px 32px;
+  }
+}

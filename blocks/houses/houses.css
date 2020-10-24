@@ -1,4 +1,11 @@
 .houses {
   width: calc(100% - 168px * 2);
   margin: auto;
+  padding: 56px 0;
+}
+
+@media (max-width: 1179px) {
+  .houses {
+    width: calc(100% - 32px * 2);
+  }
 }

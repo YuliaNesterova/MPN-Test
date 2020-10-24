@@ -1,7 +1,13 @@
 .description__list-bullet {
-  height: 32px;
-  width: 32px;
+  min-height: 32px;
+  min-width: 32px;
   background-color: #F0C630;
   border-radius: 50%;
   margin-right: 24px;
+}
+
+@media (max-width: 767px) {
+  .description__list-bullet {
+    margin-right: 16px;
+  }
 }
