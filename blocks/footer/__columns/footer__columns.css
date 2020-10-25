@@ -1,6 +1,7 @@
 .footer__columns {
   display: flex;
   justify-content: space-between;
+  margin: 32px 0 32px 0;
 }
 
 @media (max-width: 1179px) {
@@ -13,6 +14,5 @@
 @media(max-width: 767px) {
   .footer__columns {
     grid-template-columns: repeat(1, auto);
-    
   }
 }

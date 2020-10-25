@@ -27,6 +27,6 @@
 
 @media (max-width: 767px) {
   .houses__wrapper {
-    width: 256px;
+    width: 100%;
   }
 }

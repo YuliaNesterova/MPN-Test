@@ -1,11 +1,17 @@
 .footer {
-  padding: 32px 168px;
+  width: calc(100% - 168px * 2);
+  margin: auto;
 }
 
 @media (max-width: 1179px) {
   .footer {
-    padding: 32px;
+    width: calc(100% - 32px * 2);
   }
 }
 
+@media (max-width: 767px) {
+  .footer {
+    width: calc(100% - 24px * 2);
+  }
+}
 

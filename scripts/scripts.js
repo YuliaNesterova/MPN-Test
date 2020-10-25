@@ -15,6 +15,7 @@ const secondFooterOpenButton = document.querySelector(".footer__open-button_type
 const secondFooterCloseButton = document.querySelector(".footer__close-button_type_popular");
 const secondFooterLinks = document.querySelector(".footer__column-links_content_popular");
 
+
 function showDiscount() {
   discountContainer.classList.add("houses__discount-container_shown");
 }
@@ -63,6 +64,7 @@ function hideFooter(links, openButton, CloseButton) {
   openButton.classList.remove("no-display");
   CloseButton.classList.remove("display-grid");
 }
+
 
 discountItem.addEventListener("mouseover", showDiscount);
 discountItem.addEventListener("mouseout", hideDiscount);

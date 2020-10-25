@@ -24,6 +24,10 @@
   opacity: 0.5;
 }
 
+.showing__input:invalid {
+  border-bottom: 1px solid #EE4713;
+}
+
 .showing__input::-webkit-calendar-picker-indicator { 
   background: transparent; 
   background-image: url("../../../images/date-time-indicator.svg");
