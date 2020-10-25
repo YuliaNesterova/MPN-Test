@@ -24,7 +24,7 @@
   opacity: 0.5;
 }
 
-.showing__input:invalid {
+.showing__input:invalid:focus {
   border-bottom: 1px solid #EE4713;
 }
 
