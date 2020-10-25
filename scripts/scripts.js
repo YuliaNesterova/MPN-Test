@@ -14,6 +14,8 @@ const firstFooterLinks = document.querySelector(".footer__column-links_content_n
 const secondFooterOpenButton = document.querySelector(".footer__open-button_type_popular");
 const secondFooterCloseButton = document.querySelector(".footer__close-button_type_popular");
 const secondFooterLinks = document.querySelector(".footer__column-links_content_popular");
+const formInput = Array.from(document.querySelectorAll(".showing__input"));
+const formButton = document.querySelector(".showing__submit-button");
 
 
 function showDiscount() {
@@ -65,6 +67,15 @@ function hideFooter(links, openButton, CloseButton) {
   CloseButton.classList.remove("display-grid");
 }
 
+function checkValidity(formElement, buttonElement) { 
+  formElement.forEach((element) => {
+    if(!element.validity.valid) {
+      buttonElement.setAttribute('disabled', true);
+    } else {
+      buttonElement.removeAttribute('disabled');
+    }
+  })
+}
 
 discountItem.addEventListener("mouseover", showDiscount);
 discountItem.addEventListener("mouseout", hideDiscount);
@@ -77,4 +88,8 @@ firstFooterOpenButton.addEventListener("click", () => showFooter(firstFooterLink
 firstFooterCloseButton.addEventListener("click", () => hideFooter(firstFooterLinks, firstFooterOpenButton, firstFooterCloseButton));
 secondFooterOpenButton.addEventListener("click", () => showFooter(secondFooterLinks, secondFooterOpenButton, secondFooterCloseButton));
 secondFooterCloseButton.addEventListener("click", () => hideFooter(secondFooterLinks, secondFooterOpenButton, secondFooterCloseButton));
+formInput.forEach((inputElement) => {
+  inputElement.addEventListener("input", () => checkValidity(formInput, formButton));
+})
 addCheck();
+checkValidity(formInput, formButton);

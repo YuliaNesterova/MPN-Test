@@ -86,7 +86,6 @@
 @import url("../blocks/showing/__input/showing__input.css");
 @import url("../blocks/showing/__reminder/showing__reminder.css");
 @import url("../blocks/showing/__submit-button/showing__submit-button.css");
-@import url("../blocks/showing/__submit-button/_disabled/showing__submit-button_disabled.css");
 @import url("../blocks/showing/__text/showing__text.css");
 @import url("../blocks/showing/__date-time/showing__date-time.css");
 @import url("../blocks/footer/footer.css");
